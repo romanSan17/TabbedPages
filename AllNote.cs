@@ -12,7 +12,7 @@ namespace TabbedPages
     {
         public ObservableCollection<Note> Notes { get; set; } = new ObservableCollection<Note>();
 
-        public AllNotes() => LoadNotes();
+        //public AllNotes() => LoadNotes();
 
         public void LoadNotes()
         {

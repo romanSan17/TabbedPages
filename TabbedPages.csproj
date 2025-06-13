@@ -75,8 +75,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NotePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+  <Generator>MSBuild:Compile</Generator>
+  <SubType>Designer</SubType>
+</MauiXaml>
 	</ItemGroup>
 
 </Project>
